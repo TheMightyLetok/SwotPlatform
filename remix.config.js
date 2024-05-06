@@ -11,6 +11,7 @@ module.exports = {
 	serverPlatform: 'neutral',
 	tailwind: true,
 	postcss: true,
+	sourceMaps: true,
 	// appDirectory: "app",
 	// assetsBuildDirectory: "public/build",
 	// serverBuildPath: "build/index.js",

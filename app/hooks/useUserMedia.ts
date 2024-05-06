@@ -239,6 +239,10 @@ export default function useUserMedia(mode: Mode) {
 		setScreenShareStream(undefined)
 	}
 
+	const startWhiteboardShare = () => {}
+
+	const endWhiteboardShare = () => {}
+
 	const videoTrack = useMemo(
 		() =>
 			videoEnabled || !videoStreamTrack

@@ -1,5 +1,6 @@
 export const ACCESS_AUTHENTICATED_USER_EMAIL_HEADER =
 	'Cf-Access-Authenticated-User-Email'
+export const API_KEY_HEADER = 'Cf-Access-API-KEY'
 
 export const SENTRY_DSN =
 	// @ts-ignore
